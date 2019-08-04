@@ -1,94 +1,84 @@
 package main
 
 import (
-	"errors"
 	"github.com/astaxie/beego/config"
 	"github.com/astaxie/beego/logs"
-	"github.com/panyundong/logCollect-2/logAgent/tailf"
 	"strings"
 )
 
+//agent配置的结构体
 type Config struct {
-	LogLevel     string
-	LogPath      string
-	ChanSize     int
-	KafkaAddress []string
-	EtcdAddress  []string
-	CollectKey   string
-	Collects     []tailf.Collect
-	Ip           string
+	EtcdAddress  []string //Etcd地址
+	EtcdWatchKey string   //Etcd监听的 key
+
+	KafkaAddress []string //kafka 地址
+
+	LogLevel string //agent 的日志级别
+	LogPath  string //agent 的日志路径
+
+	ThreadNum int //并发收集的线程数
 }
 
 var (
-	// 配置信息对象
-	agentConfig *Config
+	// 全局agent配置的对象
+	agentConfig = &Config{}
 )
 
-// 加载配置信息
-func LoadConfig(configType string, configPath string) (err error) {
-	configer, err := config.NewConfig(configType, configPath)
+func initConfig(adapterName string, fileName string) (err error) {
+	configer, err := config.NewConfig(adapterName, fileName)
 	if err != nil {
-		logs.Error("加载配置文件失败", err)
+		logs.Error("初始化日志失败,%s", err)
 		return
 	}
 
-	agentConfig = &Config{}
-
-	// 获取基础配置
-	err = getAgentConfig(configer)
-	if err != nil {
+	//获取 Etcd的地址
+	etcAdders := configer.String("etcd::etcd_address")
+	if len(etcAdders) == 0 {
+		logs.Error("找不到Ectd的地址")
 		return
 	}
-	return
+	agentConfig.EtcdAddress = strings.Split(etcAdders, ",")
 
-}
+	//获取 Etcd的监听的 key
+	etcdWatchkey := configer.String("etcd::etcd_watch_key")
+	if len(etcdWatchkey) == 0 {
+		logs.Error("找不到Etcd的监听的 key")
+		return
+	}
+	agentConfig.EtcdWatchKey = etcdWatchkey
 
-func getAgentConfig(conf config.Configer) (err error) {
-	// 获取日志级别
-	logLevel := conf.String("base::log_level")
+	//获取 kafka的地址
+	kafkaAddress := configer.String("kafka::kafka_address")
+	if len(kafkaAddress) == 0 {
+		logs.Error("找不到kafka的地址")
+		return
+	}
+	agentConfig.KafkaAddress = strings.Split(kafkaAddress, ",")
+
+	//获取并发收集的线程数
+	threadNum, err := configer.Int("kafka::thread_num")
+	if err != nil {
+		logs.Warn("找不到并发收集的线程数,设置为 2 默认值")
+		threadNum = 2
+	}
+	agentConfig.ThreadNum = threadNum
+
+	//获取 agent log 的日志地址
+	logPath := configer.String("base::log_path")
+	if len(logPath) == 0 {
+		logs.Error("找不到agent的日志地址")
+		return
+	}
+	agentConfig.LogPath = logPath
+
+	//获取 agent 的日志级别
+	logLevel := configer.String("base::log_level")
 	if len(logLevel) == 0 {
+		logs.Warn("找不到agent的日志logLevel,设置为 DEBUG 默认值")
 		logLevel = "debug"
 	}
 	agentConfig.LogLevel = logLevel
 
-	// 获取日志路径
-	logPath := conf.String("base::log_path")
-	if len(logPath) == 0 {
-		logPath = "./logs/logagent.log"
-	}
-
-	agentConfig.LogPath = logPath
-
-	// 日志收集开启chan大小
-	chanSize, err := conf.Int("base::queue_size")
-	if err != nil {
-		chanSize = 200
-	}
-	agentConfig.ChanSize = chanSize
-
-	//获取 etcd 地址
-	etcdAddress := conf.String("etcd::etcd_address")
-	if len(etcdAddress) == 0 {
-		err = errors.New("找不到 etcd 地址哦!")
-		return
-	}
-	agentConfig.EtcdAddress = strings.Split(etcdAddress, ",")
-
-	kafkaAddress := conf.String("kafka::kafka_address")
-	if len(kafkaAddress) == 0 {
-		err = errors.New("找不到kafka 的地址哦!")
-		return
-	}
-
-	agentConfig.KafkaAddress = strings.Split(kafkaAddress, ",")
-
-	//获取日志收集的前缀
-	collectKey := conf.String("collect::collectKey")
-	if len(collectKey) == 0 {
-		err = errors.New("找不到日志收集前缀key")
-		return
-	}
-
-	agentConfig.CollectKey = collectKey
 	return
+
 }

@@ -1,0 +1,330 @@
+2019/07/31 23:15:03.953 [D]  初始化日志成功.
+2019/07/31 23:16:32.685 [D] [log.go:634]  初始化日志成功.
+2019/08/03 15:44:28.919 [D] [log.go:634]  初始化日志成功.
+2019/08/03 15:44:28.925 [D] [log.go:634]  log agent collect is: []
+2019/08/03 15:44:28.925 [W] [log.go:614]  collect task is nill
+2019/08/03 15:44:28.925 [D] [log.go:634]  开始监控 key=[/logs/nginx/192.168.0.102]
+2019/08/03 15:44:28.925 [E] [log.go:604]  Start logAgent [init tailf] failed, err: collect task is nill
+2019/08/03 15:50:37.888 [D] [proc.go:200]  初始化日志成功.
+2019/08/03 15:50:37.910 [D] [main.go:27]  log agent collect is: []
+2019/08/03 15:50:37.910 [W] [main.go:34]  collect task is nill
+2019/08/03 15:50:37.910 [D] [asm_amd64.s:1337]  开始监控 key=[/logs/nginx/192.168.0.102]
+2019/08/03 15:50:37.910 [E] [proc.go:200]  Start logAgent [init tailf] failed, err: collect task is nill
+2019/08/03 15:53:31.120 [D] [main.go:24]  初始化日志成功.
+2019/08/03 15:53:31.125 [D] [etcd.go:73]  log agent collect is: []
+2019/08/03 15:53:31.125 [W] [tailf.go:60]  collect task is nill
+2019/08/03 15:53:31.125 [E] [main.go:36]  Start logAgent [init tailf] failed, err: collect task is nill
+2019/08/03 15:53:31.125 [D] [etcd.go:89]  开始监控 key=[/logs/nginx/192.168.0.102]
+2019/08/03 16:06:03.452 [D] [main.go:24]  初始化日志成功.
+2019/08/03 16:06:03.456 [W] [etcd.go:66]  json Unmarshal key: /logs/nginx/192.168.0.102 failed, err: json: cannot unmarshal object into Go value of type []tailf.Collect
+2019/08/03 16:06:03.456 [D] [etcd.go:73]  log agent collect is: []
+2019/08/03 16:06:03.456 [W] [tailf.go:60]  collect task is nill
+2019/08/03 16:06:03.456 [E] [main.go:36]  Start logAgent [init tailf] failed, err: collect task is nill
+2019/08/03 16:06:03.456 [D] [etcd.go:89]  开始监控 key=[/logs/nginx/192.168.0.102]
+2019/08/03 16:07:36.681 [D] [main.go:24]  初始化日志成功.
+2019/08/03 16:07:36.687 [I] [etcd.go:64]  value form kafka ,{"topic":"nginx_access","logPath":"/Users/panyundong/Desktop/logs/access.log"}
+2019/08/03 16:07:36.687 [W] [etcd.go:67]  json Unmarshal key: /logs/nginx/192.168.0.102 failed, err: json: cannot unmarshal object into Go value of type []tailf.Collect
+2019/08/03 16:07:36.687 [D] [etcd.go:74]  log agent collect is: []
+2019/08/03 16:07:36.687 [W] [tailf.go:60]  collect task is nill
+2019/08/03 16:07:36.687 [E] [main.go:36]  Start logAgent [init tailf] failed, err: collect task is nill
+2019/08/03 16:07:36.688 [D] [etcd.go:90]  开始监控 key=[/logs/nginx/192.168.0.102]
+2019/08/03 16:13:08.414 [D] [main.go:24]  初始化日志成功.
+2019/08/03 16:13:08.418 [I] [etcd.go:64]  value form kafka ,{"topic":"nginx_access","logPath":"/Users/panyundong/Desktop/logs/access.log"}
+2019/08/03 16:13:08.419 [W] [etcd.go:67]  json Unmarshal key: /logs/nginx/192.168.0.102 failed, err: json: cannot unmarshal object into Go value of type []tailf.Collect
+2019/08/03 16:13:08.419 [D] [etcd.go:74]  log agent collect is: []
+2019/08/03 16:13:08.419 [W] [tailf.go:60]  collect task is nill
+2019/08/03 16:13:08.419 [D] [etcd.go:90]  开始监控 key=[/logs/nginx/192.168.0.102]
+2019/08/03 16:13:08.419 [E] [main.go:36]  Start logAgent [init tailf] failed, err: collect task is nill
+2019/08/03 16:14:33.959 [D] [main.go:24]  初始化日志成功.
+2019/08/03 16:14:33.964 [I] [etcd.go:64]  value form kafka ,{"topic":"nginx_access","logPath":"/Users/panyundong/Desktop/logs/access.log"}
+2019/08/03 16:14:33.964 [I] [etcd.go:71]  collect ,&{nginx_access /Users/panyundong/Desktop/logs/access.log}
+2019/08/03 16:14:33.964 [D] [etcd.go:76]  log agent collect is: []
+2019/08/03 16:14:33.964 [W] [tailf.go:60]  collect task is nill
+2019/08/03 16:14:33.964 [E] [main.go:36]  Start logAgent [init tailf] failed, err: collect task is nill
+2019/08/03 16:14:33.964 [D] [etcd.go:92]  开始监控 key=[/logs/nginx/192.168.0.102]
+2019/08/03 16:16:04.065 [D] [main.go:24]  初始化日志成功.
+2019/08/03 16:16:04.070 [I] [etcd.go:64]  value form kafka ,{"topic":"nginx_access","logPath":"/Users/panyundong/Desktop/logs/access.log"}
+2019/08/03 16:16:04.070 [W] [etcd.go:68]  json Unmarshal key: /logs/nginx/192.168.0.102 failed, err: json: Unmarshal(non-pointer tailf.Collect)
+2019/08/03 16:16:04.070 [D] [etcd.go:77]  log agent collect is: []
+2019/08/03 16:16:04.070 [W] [tailf.go:60]  collect task is nill
+2019/08/03 16:16:04.070 [D] [etcd.go:93]  开始监控 key=[/logs/nginx/192.168.0.102]
+2019/08/03 16:16:04.070 [E] [main.go:36]  Start logAgent [init tailf] failed, err: collect task is nill
+2019/08/03 16:17:01.356 [D] [main.go:24]  初始化日志成功.
+2019/08/03 16:17:01.361 [I] [etcd.go:64]  value form kafka ,{"topic":"nginx_access","logPath":"/Users/panyundong/Desktop/logs/access.log"}
+2019/08/03 16:17:01.361 [I] [etcd.go:71]  collect ,&{nginx_access /Users/panyundong/Desktop/logs/access.log}
+2019/08/03 16:17:01.361 [D] [etcd.go:77]  log agent collect is: [{nginx_access /Users/panyundong/Desktop/logs/access.log}]
+2019/08/03 16:17:01.361 [D] [main.go:39]  Init Agent [tailf] success
+2019/08/03 16:17:01.361 [D] [etcd.go:93]  开始监控 key=[/logs/nginx/192.168.0.102]
+2019/08/03 16:17:01.368 [I] [kafka.go:26]  &{0xc0001e8230 {{} [0 2 0]}}
+2019/08/03 16:17:01.369 [D] [main.go:47]  Init Agent [kafka] success
+2019/08/03 16:17:01.369 [I] [server.go:12]  Log Agent start is running...
+2019/08/03 16:17:01.413 [D] [server.go:34]  send to kafka --> msg:[{"msg":"172.17.0.1 - - [03/Aug/2019:01:20:34 +0000] \"GET / HTTP/1.1\" 200 612 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\" \"-\"","ip":""}], topic:[nginx_access]
+2019/08/03 16:20:47.012 [D] [main.go:24]  初始化日志成功.
+2019/08/03 16:20:47.018 [I] [etcd.go:64]  value form kafka ,{"topic":"nginx_access","logPath":"/Users/panyundong/Desktop/logs/access.log"}
+2019/08/03 16:20:47.018 [D] [etcd.go:76]  log agent collect is: [{nginx_access /Users/panyundong/Desktop/logs/access.log}]
+2019/08/03 16:20:47.018 [I] [main.go:32]  初始化Etcd 成功
+2019/08/03 16:20:47.018 [I] [main.go:41]  初始化tailf 成功
+2019/08/03 16:20:47.018 [D] [etcd.go:92]  开始监控 key=[/logs/nginx/192.168.0.102]
+2019/08/03 16:20:47.023 [D] [main.go:49]  初始化kafka 成功
+2019/08/03 16:20:47.023 [I] [server.go:12]  Log Agent start is running...
+2019/08/03 16:20:47.024 [D] [server.go:34]  send to kafka --> msg:[{"msg":"172.17.0.1 - - [03/Aug/2019:01:20:34 +0000] \"GET / HTTP/1.1\" 200 612 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\" \"-\"","ip":""}], topic:[nginx_access]
+2019/08/03 16:22:45.910 [D] [main.go:24]  初始化日志成功.
+2019/08/03 16:22:45.914 [I] [etcd.go:64]  value form kafka ,{"topic":"nginx_access","logPath":"/Users/panyundong/Desktop/logs/access.log"}
+2019/08/03 16:22:45.914 [D] [etcd.go:76]  log agent collect is: [{nginx_access /Users/panyundong/Desktop/logs/access.log}]
+2019/08/03 16:22:45.915 [I] [main.go:32]  初始化Etcd 成功
+2019/08/03 16:22:45.915 [I] [main.go:41]  初始化tailf 成功
+2019/08/03 16:22:45.915 [D] [etcd.go:92]  开始监控 key=[/logs/nginx/192.168.0.102]
+2019/08/03 16:22:45.920 [D] [main.go:49]  初始化kafka 成功
+2019/08/03 16:22:45.920 [I] [server.go:12]  启动logagent服务
+2019/08/03 16:22:45.920 [D] [server.go:34]  send to kafka --> msg:[{"msg":"172.17.0.1 - - [03/Aug/2019:01:20:34 +0000] \"GET / HTTP/1.1\" 200 612 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\" \"-\"","ip":""}], topic:[nginx_access]
+2019/08/03 16:24:51.343 [D] [main.go:24]  初始化日志成功.
+2019/08/03 16:24:51.348 [I] [etcd.go:64]  value form kafka ,{"topic":"nginx_access","logPath":"/Users/panyundong/Desktop/logs/access.log"}
+2019/08/03 16:24:51.348 [D] [etcd.go:76]  log agent collect is: [{nginx_access /Users/panyundong/Desktop/logs/access.log}]
+2019/08/03 16:24:51.348 [I] [main.go:32]  初始化Etcd 成功
+2019/08/03 16:24:51.348 [D] [etcd.go:92]  开始监控 key=[/logs/nginx/192.168.0.102]
+2019/08/03 16:24:51.348 [I] [main.go:41]  初始化tailf 成功
+2019/08/03 16:24:51.354 [D] [main.go:49]  初始化kafka 成功
+2019/08/03 16:24:51.354 [I] [server.go:12]  启动logagent服务
+2019/08/03 16:24:51.355 [D] [server.go:34]  send to kafka --> msg:[{"msg":"172.17.0.1 - - [03/Aug/2019:01:20:34 +0000] \"GET / HTTP/1.1\" 200 612 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\" \"-\"","ip":""}], topic:[nginx_access]
+2019/08/03 16:24:52.176 [D] [kafka.go:41]  topic: [nginx_access] pid: [0], offset: [0]
+2019/08/03 16:24:52.176 [D] [server.go:34]  send to kafka --> msg:[{"msg":"172.17.0.1 - - [03/Aug/2019:01:20:34 +0000] \"GET /favicon.ico HTTP/1.1\" 404 555 \"http://127.0.0.1/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\" \"-\"","ip":""}], topic:[nginx_access]
+2019/08/03 16:24:52.180 [D] [kafka.go:41]  topic: [nginx_access] pid: [0], offset: [1]
+2019/08/03 16:25:12.614 [D] [server.go:34]  send to kafka --> msg:[{"msg":"172.17.0.1 - - [03/Aug/2019:08:25:12 +0000] \"GET / HTTP/1.1\" 304 0 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\" \"-\"","ip":""}], topic:[nginx_access]
+2019/08/03 16:25:12.620 [D] [kafka.go:41]  topic: [nginx_access] pid: [0], offset: [2]
+2019/08/03 16:25:13.114 [D] [server.go:34]  send to kafka --> msg:[{"msg":"172.17.0.1 - - [03/Aug/2019:08:25:13 +0000] \"GET / HTTP/1.1\" 304 0 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\" \"-\"","ip":""}], topic:[nginx_access]
+2019/08/03 16:25:13.120 [D] [kafka.go:41]  topic: [nginx_access] pid: [0], offset: [3]
+2019/08/03 16:25:13.366 [D] [server.go:34]  send to kafka --> msg:[{"msg":"172.17.0.1 - - [03/Aug/2019:08:25:13 +0000] \"GET / HTTP/1.1\" 304 0 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\" \"-\"","ip":""}], topic:[nginx_access]
+2019/08/03 16:25:13.370 [D] [kafka.go:41]  topic: [nginx_access] pid: [0], offset: [4]
+2019/08/03 16:25:13.616 [D] [server.go:34]  send to kafka --> msg:[{"msg":"172.17.0.1 - - [03/Aug/2019:08:25:13 +0000] \"GET / HTTP/1.1\" 304 0 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\" \"-\"","ip":""}], topic:[nginx_access]
+2019/08/03 16:25:13.622 [D] [kafka.go:41]  topic: [nginx_access] pid: [0], offset: [5]
+2019/08/03 16:25:13.622 [D] [server.go:34]  send to kafka --> msg:[{"msg":"172.17.0.1 - - [03/Aug/2019:08:25:13 +0000] \"GET / HTTP/1.1\" 304 0 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\" \"-\"","ip":""}], topic:[nginx_access]
+2019/08/03 16:25:13.628 [D] [kafka.go:41]  topic: [nginx_access] pid: [0], offset: [6]
+2019/08/03 16:25:13.868 [D] [server.go:34]  send to kafka --> msg:[{"msg":"172.17.0.1 - - [03/Aug/2019:08:25:13 +0000] \"GET / HTTP/1.1\" 304 0 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\" \"-\"","ip":""}], topic:[nginx_access]
+2019/08/03 16:25:13.873 [D] [kafka.go:41]  topic: [nginx_access] pid: [0], offset: [7]
+2019/08/03 16:25:13.873 [D] [server.go:34]  send to kafka --> msg:[{"msg":"172.17.0.1 - - [03/Aug/2019:08:25:13 +0000] \"GET / HTTP/1.1\" 304 0 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\" \"-\"","ip":""}], topic:[nginx_access]
+2019/08/03 16:25:13.880 [D] [kafka.go:41]  topic: [nginx_access] pid: [0], offset: [8]
+2019/08/03 16:25:14.118 [D] [server.go:34]  send to kafka --> msg:[{"msg":"172.17.0.1 - - [03/Aug/2019:08:25:14 +0000] \"GET / HTTP/1.1\" 304 0 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\" \"-\"","ip":""}], topic:[nginx_access]
+2019/08/03 16:25:14.123 [D] [kafka.go:41]  topic: [nginx_access] pid: [0], offset: [9]
+2019/08/03 16:25:17.645 [D] [server.go:34]  send to kafka --> msg:[{"msg":"172.17.0.1 - - [03/Aug/2019:08:25:17 +0000] \"GET / HTTP/1.1\" 304 0 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\" \"-\"","ip":""}], topic:[nginx_access]
+2019/08/03 16:25:17.650 [D] [kafka.go:41]  topic: [nginx_access] pid: [0], offset: [10]
+2019/08/03 16:25:19.158 [D] [server.go:34]  send to kafka --> msg:[{"msg":"172.17.0.1 - - [03/Aug/2019:08:25:19 +0000] \"GET / HTTP/1.1\" 304 0 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\" \"-\"","ip":""}], topic:[nginx_access]
+2019/08/03 16:25:19.162 [D] [kafka.go:41]  topic: [nginx_access] pid: [0], offset: [11]
+2019/08/03 16:25:21.681 [D] [server.go:34]  send to kafka --> msg:[{"msg":"172.17.0.1 - - [03/Aug/2019:08:25:21 +0000] \"GET / HTTP/1.1\" 304 0 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\" \"-\"","ip":""}], topic:[nginx_access]
+2019/08/03 16:25:21.688 [D] [kafka.go:41]  topic: [nginx_access] pid: [0], offset: [12]
+2019/08/03 22:22:39.430 [D] [main.go:24]  初始化日志成功.
+2019/08/03 22:22:39.436 [I] [etcd.go:64]  value form kafka ,{"topic":"nginx_access","logPath":"/Users/panyundong/Desktop/logs/access.log"}
+2019/08/03 22:22:39.436 [D] [etcd.go:76]  log agent collect is: [{nginx_access /Users/panyundong/Desktop/logs/access.log}]
+2019/08/03 22:22:39.436 [I] [main.go:32]  初始化Etcd 成功
+2019/08/03 22:22:39.436 [D] [etcd.go:92]  开始监控 key=[/logs/nginx/192.168.0.102]
+2019/08/03 22:22:39.436 [I] [main.go:41]  初始化tailf 成功
+2019/08/03 22:22:39.444 [D] [main.go:49]  初始化kafka 成功
+2019/08/03 22:22:39.444 [I] [server.go:12]  启动logagent服务
+2019/08/03 22:22:39.444 [D] [server.go:34]  send to kafka --> msg:[{"msg":"172.17.0.1 - - [03/Aug/2019:01:20:34 +0000] \"GET / HTTP/1.1\" 200 612 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\" \"-\"","ip":""}], topic:[nginx_access]
+2019/08/03 22:22:39.463 [D] [kafka.go:41]  topic: [nginx_access] pid: [0], offset: [13]
+2019/08/03 22:22:39.463 [D] [server.go:34]  send to kafka --> msg:[{"msg":"172.17.0.1 - - [03/Aug/2019:01:20:34 +0000] \"GET /favicon.ico HTTP/1.1\" 404 555 \"http://127.0.0.1/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\" \"-\"","ip":""}], topic:[nginx_access]
+2019/08/03 22:22:39.475 [D] [kafka.go:41]  topic: [nginx_access] pid: [0], offset: [14]
+2019/08/03 22:22:39.475 [D] [server.go:34]  send to kafka --> msg:[{"msg":"172.17.0.1 - - [03/Aug/2019:08:25:12 +0000] \"GET / HTTP/1.1\" 304 0 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\" \"-\"","ip":""}], topic:[nginx_access]
+2019/08/03 22:22:39.478 [D] [kafka.go:41]  topic: [nginx_access] pid: [0], offset: [15]
+2019/08/03 22:22:39.478 [D] [server.go:34]  send to kafka --> msg:[{"msg":"172.17.0.1 - - [03/Aug/2019:08:25:13 +0000] \"GET / HTTP/1.1\" 304 0 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\" \"-\"","ip":""}], topic:[nginx_access]
+2019/08/03 22:22:39.481 [D] [kafka.go:41]  topic: [nginx_access] pid: [0], offset: [16]
+2019/08/03 22:22:39.481 [D] [server.go:34]  send to kafka --> msg:[{"msg":"172.17.0.1 - - [03/Aug/2019:08:25:13 +0000] \"GET / HTTP/1.1\" 304 0 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\" \"-\"","ip":""}], topic:[nginx_access]
+2019/08/03 22:22:39.484 [D] [kafka.go:41]  topic: [nginx_access] pid: [0], offset: [17]
+2019/08/03 22:22:39.484 [D] [server.go:34]  send to kafka --> msg:[{"msg":"172.17.0.1 - - [03/Aug/2019:08:25:13 +0000] \"GET / HTTP/1.1\" 304 0 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\" \"-\"","ip":""}], topic:[nginx_access]
+2019/08/03 22:22:39.487 [D] [kafka.go:41]  topic: [nginx_access] pid: [0], offset: [18]
+2019/08/03 22:22:39.487 [D] [server.go:34]  send to kafka --> msg:[{"msg":"172.17.0.1 - - [03/Aug/2019:08:25:13 +0000] \"GET / HTTP/1.1\" 304 0 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\" \"-\"","ip":""}], topic:[nginx_access]
+2019/08/03 22:22:39.489 [D] [kafka.go:41]  topic: [nginx_access] pid: [0], offset: [19]
+2019/08/03 22:22:39.489 [D] [server.go:34]  send to kafka --> msg:[{"msg":"172.17.0.1 - - [03/Aug/2019:08:25:13 +0000] \"GET / HTTP/1.1\" 304 0 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\" \"-\"","ip":""}], topic:[nginx_access]
+2019/08/03 22:22:39.492 [D] [kafka.go:41]  topic: [nginx_access] pid: [0], offset: [20]
+2019/08/03 22:22:39.492 [D] [server.go:34]  send to kafka --> msg:[{"msg":"172.17.0.1 - - [03/Aug/2019:08:25:13 +0000] \"GET / HTTP/1.1\" 304 0 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\" \"-\"","ip":""}], topic:[nginx_access]
+2019/08/03 22:22:39.495 [D] [kafka.go:41]  topic: [nginx_access] pid: [0], offset: [21]
+2019/08/03 22:22:39.495 [D] [server.go:34]  send to kafka --> msg:[{"msg":"172.17.0.1 - - [03/Aug/2019:08:25:14 +0000] \"GET / HTTP/1.1\" 304 0 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\" \"-\"","ip":""}], topic:[nginx_access]
+2019/08/03 22:22:39.498 [D] [kafka.go:41]  topic: [nginx_access] pid: [0], offset: [22]
+2019/08/03 22:22:39.498 [D] [server.go:34]  send to kafka --> msg:[{"msg":"172.17.0.1 - - [03/Aug/2019:08:25:17 +0000] \"GET / HTTP/1.1\" 304 0 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\" \"-\"","ip":""}], topic:[nginx_access]
+2019/08/03 22:22:39.500 [D] [kafka.go:41]  topic: [nginx_access] pid: [0], offset: [23]
+2019/08/03 22:22:39.500 [D] [server.go:34]  send to kafka --> msg:[{"msg":"172.17.0.1 - - [03/Aug/2019:08:25:19 +0000] \"GET / HTTP/1.1\" 304 0 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\" \"-\"","ip":""}], topic:[nginx_access]
+2019/08/03 22:22:39.503 [D] [kafka.go:41]  topic: [nginx_access] pid: [0], offset: [24]
+2019/08/03 22:22:39.503 [D] [server.go:34]  send to kafka --> msg:[{"msg":"172.17.0.1 - - [03/Aug/2019:08:25:21 +0000] \"GET / HTTP/1.1\" 304 0 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\" \"-\"","ip":""}], topic:[nginx_access]
+2019/08/03 22:22:39.505 [D] [kafka.go:41]  topic: [nginx_access] pid: [0], offset: [25]
+2019/08/04 00:08:45.665 [D] [main.go:24]  初始化日志成功.
+2019/08/04 00:08:45.670 [I] [etcd.go:64]  value form kafka ,{"topic":"nginx_access","logPath":"/Users/panyundong/Desktop/logs/access.log"}
+2019/08/04 00:08:45.670 [D] [etcd.go:76]  log agent collect is: [{nginx_access /Users/panyundong/Desktop/logs/access.log}]
+2019/08/04 00:08:45.670 [I] [main.go:32]  初始化Etcd 成功
+2019/08/04 00:08:45.670 [D] [etcd.go:92]  开始监控 key=[/logs/nginx/192.168.0.102]
+2019/08/04 00:08:45.670 [I] [main.go:41]  初始化tailf 成功
+2019/08/04 00:08:45.677 [D] [main.go:49]  初始化kafka 成功
+2019/08/04 00:08:45.677 [I] [server.go:12]  启动logagent服务
+2019/08/04 00:30:59.129 [D] [main.go:24]  初始化日志成功.
+2019/08/04 00:30:59.133 [I] [etcd.go:64]  value form kafka ,{"topic":"nginx_access","logPath":"/Users/panyundong/Desktop/logs/access.log"}
+2019/08/04 00:30:59.133 [D] [etcd.go:76]  log agent collect is: [{nginx_access /Users/panyundong/Desktop/logs/access.log}]
+2019/08/04 00:30:59.133 [I] [main.go:32]  初始化Etcd 成功
+2019/08/04 00:30:59.133 [I] [main.go:41]  初始化tailf 成功
+2019/08/04 00:30:59.133 [D] [etcd.go:92]  开始监控 key=[/logs/nginx/192.168.0.102]
+2019/08/04 00:30:59.138 [D] [main.go:49]  初始化kafka 成功
+2019/08/04 00:30:59.138 [I] [server.go:12]  启动logagent服务
+2019/08/04 00:30:59.138 [D] [server.go:34]  send to kafka --> msg:[{"msg":"172.17.0.1 - - [03/Aug/2019:01:20:34 +0000] \"GET / HTTP/1.1\" 200 612 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\" \"-\"","ip":""}], topic:[nginx_access]
+2019/08/04 00:30:59.166 [D] [kafka.go:41]  topic: [nginx_access] pid: [0], offset: [26]
+2019/08/04 00:30:59.166 [D] [server.go:34]  send to kafka --> msg:[{"msg":"172.17.0.1 - - [03/Aug/2019:01:20:34 +0000] \"GET /favicon.ico HTTP/1.1\" 404 555 \"http://127.0.0.1/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\" \"-\"","ip":""}], topic:[nginx_access]
+2019/08/04 00:30:59.169 [D] [kafka.go:41]  topic: [nginx_access] pid: [0], offset: [27]
+2019/08/04 00:30:59.169 [D] [server.go:34]  send to kafka --> msg:[{"msg":"172.17.0.1 - - [03/Aug/2019:08:25:12 +0000] \"GET / HTTP/1.1\" 304 0 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\" \"-\"","ip":""}], topic:[nginx_access]
+2019/08/04 00:30:59.172 [D] [kafka.go:41]  topic: [nginx_access] pid: [0], offset: [28]
+2019/08/04 00:30:59.172 [D] [server.go:34]  send to kafka --> msg:[{"msg":"172.17.0.1 - - [03/Aug/2019:08:25:13 +0000] \"GET / HTTP/1.1\" 304 0 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\" \"-\"","ip":""}], topic:[nginx_access]
+2019/08/04 00:30:59.175 [D] [kafka.go:41]  topic: [nginx_access] pid: [0], offset: [29]
+2019/08/04 00:30:59.175 [D] [server.go:34]  send to kafka --> msg:[{"msg":"172.17.0.1 - - [03/Aug/2019:08:25:13 +0000] \"GET / HTTP/1.1\" 304 0 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\" \"-\"","ip":""}], topic:[nginx_access]
+2019/08/04 00:30:59.178 [D] [kafka.go:41]  topic: [nginx_access] pid: [0], offset: [30]
+2019/08/04 00:30:59.178 [D] [server.go:34]  send to kafka --> msg:[{"msg":"172.17.0.1 - - [03/Aug/2019:08:25:13 +0000] \"GET / HTTP/1.1\" 304 0 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\" \"-\"","ip":""}], topic:[nginx_access]
+2019/08/04 00:30:59.180 [D] [kafka.go:41]  topic: [nginx_access] pid: [0], offset: [31]
+2019/08/04 00:30:59.180 [D] [server.go:34]  send to kafka --> msg:[{"msg":"172.17.0.1 - - [03/Aug/2019:08:25:13 +0000] \"GET / HTTP/1.1\" 304 0 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\" \"-\"","ip":""}], topic:[nginx_access]
+2019/08/04 00:30:59.183 [D] [kafka.go:41]  topic: [nginx_access] pid: [0], offset: [32]
+2019/08/04 00:30:59.183 [D] [server.go:34]  send to kafka --> msg:[{"msg":"172.17.0.1 - - [03/Aug/2019:08:25:13 +0000] \"GET / HTTP/1.1\" 304 0 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\" \"-\"","ip":""}], topic:[nginx_access]
+2019/08/04 00:30:59.186 [D] [kafka.go:41]  topic: [nginx_access] pid: [0], offset: [33]
+2019/08/04 00:30:59.186 [D] [server.go:34]  send to kafka --> msg:[{"msg":"172.17.0.1 - - [03/Aug/2019:08:25:13 +0000] \"GET / HTTP/1.1\" 304 0 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\" \"-\"","ip":""}], topic:[nginx_access]
+2019/08/04 00:30:59.189 [D] [kafka.go:41]  topic: [nginx_access] pid: [0], offset: [34]
+2019/08/04 00:30:59.189 [D] [server.go:34]  send to kafka --> msg:[{"msg":"172.17.0.1 - - [03/Aug/2019:08:25:14 +0000] \"GET / HTTP/1.1\" 304 0 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\" \"-\"","ip":""}], topic:[nginx_access]
+2019/08/04 00:30:59.192 [D] [kafka.go:41]  topic: [nginx_access] pid: [0], offset: [35]
+2019/08/04 00:30:59.192 [D] [server.go:34]  send to kafka --> msg:[{"msg":"172.17.0.1 - - [03/Aug/2019:08:25:17 +0000] \"GET / HTTP/1.1\" 304 0 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\" \"-\"","ip":""}], topic:[nginx_access]
+2019/08/04 00:30:59.194 [D] [kafka.go:41]  topic: [nginx_access] pid: [0], offset: [36]
+2019/08/04 00:30:59.194 [D] [server.go:34]  send to kafka --> msg:[{"msg":"172.17.0.1 - - [03/Aug/2019:08:25:19 +0000] \"GET / HTTP/1.1\" 304 0 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\" \"-\"","ip":""}], topic:[nginx_access]
+2019/08/04 00:30:59.197 [D] [kafka.go:41]  topic: [nginx_access] pid: [0], offset: [37]
+2019/08/04 00:30:59.197 [D] [server.go:34]  send to kafka --> msg:[{"msg":"172.17.0.1 - - [03/Aug/2019:08:25:21 +0000] \"GET / HTTP/1.1\" 304 0 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\" \"-\"","ip":""}], topic:[nginx_access]
+2019/08/04 00:30:59.199 [D] [kafka.go:41]  topic: [nginx_access] pid: [0], offset: [38]
+2019/08/04 00:31:10.761 [D] [main.go:24]  初始化日志成功.
+2019/08/04 00:31:10.766 [I] [etcd.go:64]  value form kafka ,{"topic":"nginx_access","logPath":"/Users/panyundong/Desktop/logs/access.log"}
+2019/08/04 00:31:10.766 [D] [etcd.go:76]  log agent collect is: [{nginx_access /Users/panyundong/Desktop/logs/access.log}]
+2019/08/04 00:31:10.766 [I] [main.go:32]  初始化Etcd 成功
+2019/08/04 00:31:10.766 [I] [main.go:41]  初始化tailf 成功
+2019/08/04 00:31:10.766 [D] [etcd.go:92]  开始监控 key=[/logs/nginx/192.168.0.102]
+2019/08/04 00:31:10.772 [D] [main.go:49]  初始化kafka 成功
+2019/08/04 00:31:10.772 [I] [server.go:12]  启动logagent服务
+2019/08/04 00:31:16.321 [D] [server.go:34]  send to kafka --> msg:[{"msg":"172.17.0.1 - - [03/Aug/2019:16:31:16 +0000] \"GET / HTTP/1.1\" 304 0 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\" \"-\"","ip":""}], topic:[nginx_access]
+2019/08/04 00:31:16.328 [D] [kafka.go:41]  topic: [nginx_access] pid: [0], offset: [39]
+2019/08/04 00:31:28.202 [D] [server.go:34]  send to kafka --> msg:[{"msg":"172.17.0.1 - - [03/Aug/2019:16:31:28 +0000] \"GET / HTTP/1.1\" 304 0 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\" \"-\"","ip":""}], topic:[nginx_access]
+2019/08/04 00:31:28.207 [D] [kafka.go:41]  topic: [nginx_access] pid: [0], offset: [40]
+2019/08/04 00:31:29.206 [D] [server.go:34]  send to kafka --> msg:[{"msg":"172.17.0.1 - - [03/Aug/2019:16:31:28 +0000] \"GET / HTTP/1.1\" 304 0 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\" \"-\"","ip":""}], topic:[nginx_access]
+2019/08/04 00:31:29.210 [D] [kafka.go:41]  topic: [nginx_access] pid: [0], offset: [41]
+2019/08/04 00:31:29.713 [D] [server.go:34]  send to kafka --> msg:[{"msg":"172.17.0.1 - - [03/Aug/2019:16:31:29 +0000] \"GET / HTTP/1.1\" 304 0 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\" \"-\"","ip":""}], topic:[nginx_access]
+2019/08/04 00:31:29.728 [D] [kafka.go:41]  topic: [nginx_access] pid: [0], offset: [42]
+2019/08/04 00:31:29.966 [D] [server.go:34]  send to kafka --> msg:[{"msg":"172.17.0.1 - - [03/Aug/2019:16:31:29 +0000] \"GET / HTTP/1.1\" 304 0 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\" \"-\"","ip":""}], topic:[nginx_access]
+2019/08/04 00:31:29.971 [D] [kafka.go:41]  topic: [nginx_access] pid: [0], offset: [43]
+2019/08/04 00:31:29.971 [D] [server.go:34]  send to kafka --> msg:[{"msg":"172.17.0.1 - - [03/Aug/2019:16:31:29 +0000] \"GET / HTTP/1.1\" 304 0 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\" \"-\"","ip":""}], topic:[nginx_access]
+2019/08/04 00:31:29.975 [D] [kafka.go:41]  topic: [nginx_access] pid: [0], offset: [44]
+2019/08/04 00:31:30.219 [D] [server.go:34]  send to kafka --> msg:[{"msg":"172.17.0.1 - - [03/Aug/2019:16:31:30 +0000] \"GET / HTTP/1.1\" 304 0 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\" \"-\"","ip":""}], topic:[nginx_access]
+2019/08/04 00:31:30.224 [D] [kafka.go:41]  topic: [nginx_access] pid: [0], offset: [45]
+2019/08/04 00:31:30.473 [D] [server.go:34]  send to kafka --> msg:[{"msg":"172.17.0.1 - - [03/Aug/2019:16:31:30 +0000] \"GET / HTTP/1.1\" 304 0 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\" \"-\"","ip":""}], topic:[nginx_access]
+2019/08/04 00:31:30.479 [D] [kafka.go:41]  topic: [nginx_access] pid: [0], offset: [46]
+2019/08/04 00:31:38.550 [D] [server.go:34]  send to kafka --> msg:[{"msg":"172.17.0.1 - - [03/Aug/2019:16:31:38 +0000] \"GET / HTTP/1.1\" 304 0 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36\" \"-\"","ip":""}], topic:[nginx_access]
+2019/08/04 00:31:38.555 [D] [kafka.go:41]  topic: [nginx_access] pid: [0], offset: [47]
+2019/08/04 21:09:36.898 [D] [main.go:23]  初始化日志成功. logPath = [logs/logagent.log]
+2019/08/04 21:09:36.904 [I] [main.go:31]  初始化Etcd成功
+2019/08/04 21:10:25.161 [D] [main.go:23]  初始化日志成功. logPath = [logs/logagent.log]
+2019/08/04 21:10:25.166 [I] [main.go:31]  初始化Etcd成功
+2019/08/04 21:13:05.554 [D] [main.go:23]  初始化日志成功. logPath = [logs/logagent.log]
+2019/08/04 21:13:44.011 [E] [etcd.go:43]  get key from etcd error: context deadline exceeded
+2019/08/04 21:13:55.532 [I] [main.go:31]  初始化Etcd成功
+2019/08/04 21:13:56.956 [I] [kafka.go:39]  start kafka send
+2019/08/04 21:13:57.001 [I] [kafka.go:39]  start kafka send
+2019/08/04 21:13:57.080 [I] [kafka.go:39]  start kafka send
+2019/08/04 21:13:57.131 [D] [main.go:39]  初始化kafka 成功
+2019/08/04 21:21:27.860 [D] [main.go:23]  初始化日志成功. logPath = [logs/logagent.log]
+2019/08/04 21:21:27.865 [I] [etcd.go:50]  get key from etcd error: <nil>
+2019/08/04 21:21:27.865 [I] [main.go:31]  初始化Etcd成功
+2019/08/04 21:22:21.660 [D] [main.go:23]  初始化日志成功. logPath = [logs/logagent.log]
+2019/08/04 21:24:12.047 [I] [etcd.go:50]  get key from etcd error: <nil>
+2019/08/04 21:24:17.512 [I] [main.go:31]  初始化Etcd成功
+2019/08/04 21:24:18.980 [I] [kafka.go:39]  start kafka send
+2019/08/04 21:24:19.077 [I] [kafka.go:39]  start kafka send
+2019/08/04 21:24:19.199 [I] [kafka.go:39]  start kafka send
+2019/08/04 21:24:19.392 [D] [main.go:39]  初始化kafka 成功
+2019/08/04 21:24:19.522 [I] [server.go:53]  config form etcd , {"topic":"nginx_access","log_path":"/Users/panyundong/Desktop/logs/access.log","service":"nginx_server","send_rate":100}
+2019/08/04 21:24:19.675 [E] [server.go:58]  unmarshal failed, err: json: cannot unmarshal object into Go value of type []main.LogConfig conf :{"topic":"nginx_access","log_path":"/Users/panyundong/Desktop/logs/access.log","service":"nginx_server","send_rate":100}
+2019/08/04 21:26:55.713 [D] [main.go:23]  初始化日志成功. logPath = [logs/logagent.log]
+2019/08/04 21:26:55.718 [I] [etcd.go:50]  get key from etcd success: {"topic":"nginx_access","log_path":"/Users/panyundong/Desktop/logs/access.log","service":"nginx_server","send_rate":100}
+2019/08/04 21:26:55.718 [I] [main.go:31]  初始化Etcd成功
+2019/08/04 21:27:57.259 [D] [main.go:23]  初始化日志成功. logPath = [logs/logagent.log]
+2019/08/04 21:27:57.264 [I] [etcd.go:50]  get key from etcd success: {"topic":"nginx_access","log_path":"/Users/panyundong/Desktop/logs/access.log","service":"nginx_server","send_rate":100}
+2019/08/04 21:27:57.265 [I] [main.go:31]  初始化Etcd成功
+2019/08/04 21:28:09.865 [I] [kafka.go:39]  start kafka send
+2019/08/04 21:28:09.932 [I] [kafka.go:39]  start kafka send
+2019/08/04 21:28:10.052 [I] [kafka.go:39]  start kafka send
+2019/08/04 21:28:10.123 [D] [main.go:39]  初始化kafka 成功
+2019/08/04 21:28:10.202 [I] [server.go:53]  config form etcd , {"topic":"nginx_access","log_path":"/Users/panyundong/Desktop/logs/access.log","service":"nginx_server","send_rate":100}
+2019/08/04 21:28:10.293 [D] [server.go:68]  reload config from etcd success
+2019/08/04 21:34:02.695 [D] [main.go:23]  初始化日志成功. logPath = [logs/logagent.log]
+2019/08/04 21:34:02.700 [I] [etcd.go:50]  get key from etcd success: {"topic":"nginx_access","log_path":"/Users/panyundong/Desktop/logs/access.log","service":"nginx_server","send_rate":100}
+2019/08/04 21:34:02.700 [I] [main.go:31]  初始化Etcd成功
+2019/08/04 21:34:50.722 [D] [main.go:23]  初始化日志成功. logPath = [logs/logagent.log]
+2019/08/04 21:34:50.728 [I] [etcd.go:50]  get key from etcd success: {"topic":"nginx_access","log_path":"/Users/panyundong/Desktop/logs/access.log","service":"nginx_server","send_rate":100}
+2019/08/04 21:34:50.728 [I] [main.go:31]  初始化Etcd成功
+2019/08/04 21:34:50.728 [I] [etcd.go:65]  etcdClient = %!s(*clientv3.Client=<nil>)
+2019/08/04 21:36:18.269 [D] [main.go:23]  初始化日志成功. logPath = [logs/logagent.log]
+2019/08/04 21:36:18.274 [I] [etcd.go:51]  get key from etcd success: {"topic":"nginx_access","log_path":"/Users/panyundong/Desktop/logs/access.log","service":"nginx_server","send_rate":100}
+2019/08/04 21:36:18.274 [I] [main.go:31]  初始化Etcd成功
+2019/08/04 21:36:18.280 [I] [kafka.go:39]  start kafka send
+2019/08/04 21:36:18.274 [I] [etcd.go:66]  etcdClient = &{%!s(*clientv3.cluster=&{0xc00000eee0 [{true} {2097152} {2147483647}]}) %!s(*clientv3.kv=&{0xc00000ef20 [{true} {2097152} {2147483647}]}) %!s(*clientv3.lessor=&{{0 0} 0xc0000de6c0 <nil> 0xc00000ef60 <nil> <nil> 0xc0000409c0 0x4114580 map[] 6000000000 {{0 0} 0} [{true} {2097152} {2147483647}]}) %!s(*clientv3.watcher=&{0xc000010600 [{true} {2097152} {2147483647}] {{0 0} 0 0 0 0} map[]}) %!s(*clientv3.auth=&{0xc00000efa0 [{true} {2097152} {2147483647}]}) %!s(*clientv3.maintenance=&{0x45241e0 0xc00000efc0 [{true} {2097152} {2147483647}]}) %!s(*grpc.ClientConn=&{0xc0001ac100 0x4114580 127.0.0.1:2379 {passthrough  127.0.0.1:2379} 127.0.0.1:2379 {<nil> <nil> [] [] <nil> <nil> {120000000000} false true 5000000000 <nil>  {grpc-go/1.22.1 0x4488940 false [] <nil> <nil> {0 0 false} <nil> 0 0 32768 32768 0 <nil>} [] 0xc0001b00d0 0x4ea24d0 0 0 false true false <nil> <nil> <nil> <nil>} 0xc0001ae0c0 {<nil> <nil> 0x4488940 0 {passthrough  127.0.0.1:2379}} 0xc0001ac0c0 {{0 0} 0 0 0 0} 0xc0001d6180 <nil> map[0xc000210000:{}] {0 0 false} wrapper 0xc0001ac240 {<nil>} 0xc0001ae0a0 0 0xc0001d0040}) %!s(chan error=0xc0001d6000) {[127.0.0.1:2379] %!s(time.Duration=0) %!s(time.Duration=5000000000) %!s(time.Duration=0) %!s(time.Duration=0) %!s(int=0) %!s(int=0) %!s(*tls.Config=<nil>)   %!s(bool=false) [] <nil>} %!s(*credentials.TransportCredentials=<nil>) %!s(*clientv3.healthBalancer=&{[{127.0.0.1:2379 <nil>}] [127.0.0.1:2379] 0xc0001c6120 0xc0001c6180 {{0 0} 1} 0x45238b0 5000000000 {{0 0} 0 0 0 0} map[] {{0 0} 0 0 0 0} 0xc0001c61e0 0xc0000de600 0xc0001c6240 {{0 0} 0} {{} [0 0 1]} 0xc0001c6300 0xc0001c6360 map[127.0.0.1:2379:127.0.0.1:2379] 127.0.0.1:2379 false}) %!s(*sync.RWMutex=&{{0 0} 0 0 0 0}) %!s(*context.cancelCtx=&{0xc00003e0b0 {0 0} 0xc0001c6480 map[] <nil>}) %!s(context.CancelFunc=0x4114580)   %!s(*clientv3.authTokenCredential=<nil>) [{%!s(bool=true)} {%!s(int=2097152)} {%!s(int=2147483647)}]}
+2019/08/04 21:36:18.318 [I] [kafka.go:39]  start kafka send
+2019/08/04 21:36:18.319 [I] [kafka.go:39]  start kafka send
+2019/08/04 21:36:18.319 [D] [main.go:39]  初始化kafka 成功
+2019/08/04 21:36:18.319 [I] [server.go:53]  config form etcd , {"topic":"nginx_access","log_path":"/Users/panyundong/Desktop/logs/access.log","service":"nginx_server","send_rate":100}
+2019/08/04 21:36:18.319 [D] [server.go:68]  reload config from etcd success
+2019/08/04 21:36:18.321 [W] [etcd.go:93]  do nothing..
+2019/08/04 21:36:19.326 [W] [etcd.go:93]  do nothing..
+2019/08/04 21:36:20.329 [W] [etcd.go:93]  do nothing..
+2019/08/04 21:36:21.336 [W] [etcd.go:93]  do nothing..
+2019/08/04 21:36:22.337 [W] [etcd.go:93]  do nothing..
+2019/08/04 21:36:23.342 [W] [etcd.go:93]  do nothing..
+2019/08/04 21:36:24.343 [W] [etcd.go:93]  do nothing..
+2019/08/04 21:36:25.345 [W] [etcd.go:93]  do nothing..
+2019/08/04 21:36:26.349 [W] [etcd.go:93]  do nothing..
+2019/08/04 21:36:27.351 [W] [etcd.go:93]  do nothing..
+2019/08/04 21:36:28.356 [W] [etcd.go:93]  do nothing..
+2019/08/04 21:36:29.360 [W] [etcd.go:93]  do nothing..
+2019/08/04 21:36:30.364 [W] [etcd.go:93]  do nothing..
+2019/08/04 21:36:31.367 [W] [etcd.go:93]  do nothing..
+2019/08/04 21:36:32.371 [W] [etcd.go:93]  do nothing..
+2019/08/04 21:36:33.375 [W] [etcd.go:93]  do nothing..
+2019/08/04 21:36:34.380 [W] [etcd.go:93]  do nothing..
+2019/08/04 21:36:35.385 [W] [etcd.go:93]  do nothing..
+2019/08/04 21:36:36.386 [W] [etcd.go:93]  do nothing..
+2019/08/04 21:36:37.389 [W] [etcd.go:93]  do nothing..
+2019/08/04 21:36:38.389 [W] [etcd.go:93]  do nothing..
+2019/08/04 21:36:39.392 [W] [etcd.go:93]  do nothing..
+2019/08/04 21:36:40.395 [W] [etcd.go:93]  do nothing..
+2019/08/04 21:36:41.397 [W] [etcd.go:93]  do nothing..
+2019/08/04 21:36:42.402 [W] [etcd.go:93]  do nothing..
+2019/08/04 21:36:43.407 [W] [etcd.go:93]  do nothing..
+2019/08/04 21:36:44.412 [W] [etcd.go:93]  do nothing..
+2019/08/04 21:36:49.247 [D] [main.go:23]  初始化日志成功. logPath = [logs/logagent.log]
+2019/08/04 21:36:49.251 [I] [etcd.go:51]  get key from etcd success: {"topic":"nginx_access","log_path":"/Users/panyundong/Desktop/logs/access.log","service":"nginx_server","send_rate":100}
+2019/08/04 21:36:49.251 [I] [main.go:31]  初始化Etcd成功
+2019/08/04 21:36:49.252 [I] [etcd.go:66]  etcdClient = &{%!s(*clientv3.cluster=&{0xc00000f0e0 [{true} {2097152} {2147483647}]}) %!s(*clientv3.kv=&{0xc00000f120 [{true} {2097152} {2147483647}]}) %!s(*clientv3.lessor=&{{0 0} 0xc0000d85a0 <nil> 0xc00000f160 <nil> <nil> 0xc000040900 0x41145f0 map[] 6000000000 {{0 0} 0} [{true} {2097152} {2147483647}]}) %!s(*clientv3.watcher=&{0xc000010650 [{true} {2097152} {2147483647}] {{0 0} 0 0 0 0} map[]}) %!s(*clientv3.auth=&{0xc00000f1a0 [{true} {2097152} {2147483647}]}) %!s(*clientv3.maintenance=&{0x4524250 0xc00000f1c0 [{true} {2097152} {2147483647}]}) %!s(*grpc.ClientConn=&{0xc0000c6180 0x41145f0 127.0.0.1:2379 {passthrough  127.0.0.1:2379} 127.0.0.1:2379 {<nil> <nil> [] [] <nil> <nil> {120000000000} false true 5000000000 <nil>  {grpc-go/1.22.1 0x44889b0 false [] <nil> <nil> {0 0 false} <nil> 0 0 32768 32768 0 <nil>} [] 0xc0000b2260 0x4ea24d0 0 0 false true false <nil> <nil> <nil> <nil>} 0xc0000bc0e0 {<nil> <nil> 0x44889b0 0 {passthrough  127.0.0.1:2379}} 0xc0000c6140 {{0 0} 0 0 0 0} 0xc0000ce1e0 <nil> map[0xc0001f4000:{}] {0 0 false} wrapper 0xc0000c6280 {<nil>} 0xc0000bc0c0 0 0xc0001d2060}) %!s(chan error=0xc0000ce060) {[127.0.0.1:2379] %!s(time.Duration=0) %!s(time.Duration=5000000000) %!s(time.Duration=0) %!s(time.Duration=0) %!s(int=0) %!s(int=0) %!s(*tls.Config=<nil>)   %!s(bool=false) [] <nil>} %!s(*credentials.TransportCredentials=<nil>) %!s(*clientv3.healthBalancer=&{[{127.0.0.1:2379 <nil>}] [127.0.0.1:2379] 0xc0000a2240 0xc0000a22a0 {{0 0} 1} 0x4523920 5000000000 {{0 0} 0 0 0 0} map[] {{0 0} 0 0 0 0} 0xc0000a2300 0xc00023e000 0xc0000a2360 {{0 0} 0} {{} [0 0 1]} 0xc0000a2420 0xc0000a2480 map[127.0.0.1:2379:127.0.0.1:2379] 127.0.0.1:2379 false}) %!s(*sync.RWMutex=&{{0 0} 0 0 0 0}) %!s(*context.cancelCtx=&{0xc00003e0b0 {0 0} 0xc0000a25a0 map[] <nil>}) %!s(context.CancelFunc=0x41145f0)   %!s(*clientv3.authTokenCredential=<nil>) [{%!s(bool=true)} {%!s(int=2097152)} {%!s(int=2147483647)}]}
+2019/08/04 21:36:49.257 [I] [kafka.go:39]  start kafka send
+2019/08/04 21:36:49.274 [I] [kafka.go:39]  start kafka send
+2019/08/04 21:36:49.274 [I] [kafka.go:39]  start kafka send
+2019/08/04 21:36:49.274 [D] [main.go:39]  初始化kafka 成功
+2019/08/04 21:36:49.274 [I] [server.go:53]  config form etcd , {"topic":"nginx_access","log_path":"/Users/panyundong/Desktop/logs/access.log","service":"nginx_server","send_rate":100}
+2019/08/04 21:36:49.274 [D] [server.go:68]  reload config from etcd success
+2019/08/04 21:36:55.593 [D] [limit.go:50]  limit is exited
+2019/08/04 21:36:55.604 [D] [kafka.go:60]  send message to kafka success. line =172.17.0.1 - - [04/Aug/2019:13:36:55 +0000] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36" "-" topic=nginx_access  partition=%!s(int32=0) offset=%!s(int64=48)
+2019/08/04 21:36:58.370 [D] [limit.go:50]  limit is exited
+2019/08/04 21:36:58.378 [D] [kafka.go:60]  send message to kafka success. line =172.17.0.1 - - [04/Aug/2019:13:36:58 +0000] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36" "-" topic=nginx_access  partition=%!s(int32=0) offset=%!s(int64=49)
+2019/08/04 21:37:00.390 [D] [limit.go:50]  limit is exited
+2019/08/04 21:37:00.395 [D] [kafka.go:60]  send message to kafka success. line =172.17.0.1 - - [04/Aug/2019:13:37:00 +0000] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36" "-" topic=nginx_access  partition=%!s(int32=0) offset=%!s(int64=50)
+2019/08/04 21:37:00.894 [D] [limit.go:50]  limit is exited
+2019/08/04 21:37:00.898 [D] [kafka.go:60]  send message to kafka success. line =172.17.0.1 - - [04/Aug/2019:13:37:00 +0000] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36" "-" topic=nginx_access  partition=%!s(int32=0) offset=%!s(int64=51)
+2019/08/04 21:37:01.147 [D] [limit.go:50]  limit is exited
+2019/08/04 21:37:01.151 [D] [kafka.go:60]  send message to kafka success. line =172.17.0.1 - - [04/Aug/2019:13:37:01 +0000] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36" "-" topic=nginx_access  partition=%!s(int32=0) offset=%!s(int64=52)
+2019/08/04 21:37:42.840 [D] [limit.go:50]  limit is exited
+2019/08/04 21:37:42.843 [D] [kafka.go:60]  send message to kafka success. line =172.17.0.1 - - [04/Aug/2019:13:37:42 +0000] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36" "-" topic=nginx_access  partition=%!s(int32=0) offset=%!s(int64=53)
+2019/08/04 21:37:49.159 [D] [limit.go:50]  limit is exited
+2019/08/04 21:37:49.164 [D] [kafka.go:60]  send message to kafka success. line =172.17.0.1 - - [04/Aug/2019:13:37:49 +0000] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36" "-" topic=nginx_access  partition=%!s(int32=0) offset=%!s(int64=54)
+2019/08/04 21:37:49.412 [D] [limit.go:50]  limit is exited
+2019/08/04 21:37:49.412 [D] [limit.go:50]  limit is exited
+2019/08/04 21:37:49.417 [D] [kafka.go:60]  send message to kafka success. line =172.17.0.1 - - [04/Aug/2019:13:37:49 +0000] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36" "-" topic=nginx_access  partition=%!s(int32=0) offset=%!s(int64=55)
+2019/08/04 21:37:49.421 [D] [kafka.go:60]  send message to kafka success. line =172.17.0.1 - - [04/Aug/2019:13:37:49 +0000] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36" "-" topic=nginx_access  partition=%!s(int32=0) offset=%!s(int64=56)
+2019/08/04 21:37:49.665 [D] [limit.go:50]  limit is exited
+2019/08/04 21:37:49.665 [D] [limit.go:50]  limit is exited
+2019/08/04 21:37:49.671 [D] [kafka.go:60]  send message to kafka success. line =172.17.0.1 - - [04/Aug/2019:13:37:49 +0000] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36" "-" topic=nginx_access  partition=%!s(int32=0) offset=%!s(int64=57)
+2019/08/04 21:37:49.675 [D] [kafka.go:60]  send message to kafka success. line =172.17.0.1 - - [04/Aug/2019:13:37:49 +0000] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36" "-" topic=nginx_access  partition=%!s(int32=0) offset=%!s(int64=58)
+2019/08/04 21:37:49.918 [D] [limit.go:50]  limit is exited
+2019/08/04 21:37:49.924 [D] [kafka.go:60]  send message to kafka success. line =172.17.0.1 - - [04/Aug/2019:13:37:49 +0000] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36" "-" topic=nginx_access  partition=%!s(int32=0) offset=%!s(int64=59)
+2019/08/04 21:37:50.169 [D] [limit.go:50]  limit is exited
+2019/08/04 21:37:50.173 [D] [kafka.go:60]  send message to kafka success. line =172.17.0.1 - - [04/Aug/2019:13:37:49 +0000] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36" "-" topic=nginx_access  partition=%!s(int32=0) offset=%!s(int64=60)
