@@ -1,13 +1,17 @@
 package main
 
 import (
+	"flag"
 	"github.com/astaxie/beego/logs"
 )
 
 func main() {
 
+	i := flag.String("conf", "./logAgent/config/config.ini", "-conf= the config path")
+	flag.Parse()
+
 	//加载配置文件
-	err := initConfig("ini", "./logAgent/config/config.ini")
+	err := initConfig("ini", *i)
 	if err != nil {
 		logs.Error("加载配置文件失败,%s", err)
 		return

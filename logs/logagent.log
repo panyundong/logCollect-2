@@ -355,3 +355,9 @@
 2019/08/07 22:58:05.396 [D] [main.go:23]  初始化日志成功. logPath = [logs/logagent.log]
 2019/08/07 22:58:10.401 [E] [etcd.go:26]  连接 ectd 失败,dial tcp 127.0.0.1:2379: connect: connection refused
 2019/08/07 22:58:10.401 [E] [main.go:28]  初始化Etcd <nil>
+2019/08/07 23:20:03.105 [D] [main.go:27]  初始化日志成功. logPath = [logs/logagent.log]
+2019/08/07 23:20:08.108 [E] [etcd.go:26]  连接 ectd 失败,dial tcp 127.0.0.1:2379: connect: connection refused
+2019/08/07 23:20:08.108 [E] [main.go:32]  初始化Etcd <nil>
+2019/08/07 23:56:36.344 [D] [main.go:27]  初始化日志成功. logPath = [logs/logagent.log]
+2019/08/07 23:56:41.346 [E] [etcd.go:26]  连接 ectd 失败,dial tcp 127.0.0.1:2379: connect: connection refused
+2019/08/07 23:56:41.346 [E] [main.go:32]  初始化Etcd <nil>
