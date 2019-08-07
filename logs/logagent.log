@@ -328,3 +328,30 @@
 2019/08/04 21:37:49.924 [D] [kafka.go:60]  send message to kafka success. line =172.17.0.1 - - [04/Aug/2019:13:37:49 +0000] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36" "-" topic=nginx_access  partition=%!s(int32=0) offset=%!s(int64=59)
 2019/08/04 21:37:50.169 [D] [limit.go:50]  limit is exited
 2019/08/04 21:37:50.173 [D] [kafka.go:60]  send message to kafka success. line =172.17.0.1 - - [04/Aug/2019:13:37:49 +0000] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36" "-" topic=nginx_access  partition=%!s(int32=0) offset=%!s(int64=60)
+2019/08/06 22:52:42.180 [D] [main.go:23]  初始化日志成功. logPath = [logs/logagent.log]
+2019/08/06 22:52:47.184 [E] [etcd.go:26]  连接 ectd 失败,dial tcp 127.0.0.1:2379: connect: connection refused
+2019/08/06 22:52:47.184 [E] [main.go:28]  初始化Etcd <nil>
+2019/08/06 23:03:37.931 [D] [main.go:23]  初始化日志成功. logPath = [logs/logagent.log]
+2019/08/06 23:03:42.935 [E] [etcd.go:26]  连接 ectd 失败,dial tcp 127.0.0.1:2379: connect: connection refused
+2019/08/06 23:03:42.935 [E] [main.go:28]  初始化Etcd <nil>
+2019/08/06 23:15:06.100 [D] [main.go:23]  初始化日志成功. logPath = [logs/logagent.log]
+2019/08/06 23:15:11.102 [E] [etcd.go:26]  连接 ectd 失败,dial tcp 127.0.0.1:2379: connect: connection refused
+2019/08/06 23:15:11.102 [E] [main.go:28]  初始化Etcd <nil>
+2019/08/06 23:29:33.669 [D] [main.go:23]  初始化日志成功. logPath = [logs/logagent.log]
+2019/08/06 23:29:38.670 [E] [etcd.go:26]  连接 ectd 失败,dial tcp 127.0.0.1:2379: connect: connection refused
+2019/08/06 23:29:38.670 [E] [main.go:28]  初始化Etcd <nil>
+2019/08/07 00:05:54.199 [D] [main.go:23]  初始化日志成功. logPath = [logs/logagent.log]
+2019/08/07 00:05:59.200 [E] [etcd.go:26]  连接 ectd 失败,dial tcp 127.0.0.1:2379: connect: connection refused
+2019/08/07 00:05:59.200 [E] [main.go:28]  初始化Etcd <nil>
+2019/08/07 22:43:15.220 [D] [main.go:23]  初始化日志成功. logPath = [logs/logagent.log]
+2019/08/07 22:43:20.221 [E] [etcd.go:26]  连接 ectd 失败,dial tcp 127.0.0.1:2379: connect: connection refused
+2019/08/07 22:43:20.221 [E] [main.go:28]  初始化Etcd <nil>
+2019/08/07 22:53:41.244 [D] [main.go:23]  初始化日志成功. logPath = [logs/logagent.log]
+2019/08/07 22:53:46.248 [E] [etcd.go:26]  连接 ectd 失败,dial tcp 127.0.0.1:2379: connect: connection refused
+2019/08/07 22:53:46.248 [E] [main.go:28]  初始化Etcd <nil>
+2019/08/07 22:54:51.760 [D] [main.go:23]  初始化日志成功. logPath = [logs/logagent.log]
+2019/08/07 22:54:56.763 [E] [etcd.go:26]  连接 ectd 失败,dial tcp 127.0.0.1:2379: connect: connection refused
+2019/08/07 22:54:56.763 [E] [main.go:28]  初始化Etcd <nil>
+2019/08/07 22:58:05.396 [D] [main.go:23]  初始化日志成功. logPath = [logs/logagent.log]
+2019/08/07 22:58:10.401 [E] [etcd.go:26]  连接 ectd 失败,dial tcp 127.0.0.1:2379: connect: connection refused
+2019/08/07 22:58:10.401 [E] [main.go:28]  初始化Etcd <nil>
